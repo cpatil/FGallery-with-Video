@@ -18,6 +18,7 @@ typedef enum _ASIAuthenticationType {
 @interface ASIAutorotatingViewController : UIViewController
 @end
 
+
 @interface ASIAuthenticationDialog : ASIAutorotatingViewController <UIActionSheetDelegate, UITableViewDelegate, UITableViewDataSource> {
 	ASIHTTPRequest *request;
 	ASIAuthenticationType type;
